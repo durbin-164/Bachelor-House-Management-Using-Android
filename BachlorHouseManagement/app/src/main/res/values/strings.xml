@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bachlor House Management</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="memderLogin">Member Login</string>
+    <string name="username">User Name : </string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="newacount">Create a new Account</string>
+    <string name="membername">Name: </string>
+
+
+</resources>

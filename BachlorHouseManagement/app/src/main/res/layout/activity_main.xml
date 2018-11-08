@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#16a418"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.example.root.bachlorhousemanagement.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+
+        android:background="#f54d1e49"
+        android:gravity="center"
+        android:text="@string/memderLogin"
+        android:textColor="#fcf21313"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bc06f4"
+        android:weightSum="100"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="100"
+
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/homeNameEditview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:background="#f1edf0"
+                android:gravity="center"
+                android:hint="Enter Home Name"
+                android:textColorHint="#000"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/passwordEditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#f1edf0"
+
+                android:gravity="center"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:textColorHint="#000"
+                android:textSize="30dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="@string/login"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+
+                />
+
+            <Button
+                android:id="@+id/createnewaccountButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/newacount"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
